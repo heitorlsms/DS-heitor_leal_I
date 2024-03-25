@@ -7,21 +7,20 @@ import java.util.Scanner;
  */
 public class ex10 {
      public static void main(String[] args){
-         double P=0;
          Scanner teclado = new Scanner(System.in);
          System.out.println("Nome:");
-         String N = teclado.nextLine();
+         String N = teclado.next();
          System.out.println("Altura:");
-         float A = teclado.nextFloat();
+         double A = teclado.nextDouble();
          System.out.println("Sexo(M ou F):");
-         String S = teclado.nextLine();
-         if(S == "M"){
-             P=(72.7*A)-58;
+         String S = teclado.next();
+         if(S.equals("M")){
+             double P=(72.7*A)-58;
              System.out.println(N+",seu peso ideal é:"+P);
          }
-         else if(S=="F"){
-             P=(62.1*A)-44.7;
-             System.out.println(N+",seu peso ideal é:"+P);
+         else if(S.equals("F")){
+             double P=(62.1*A)-44.7;
+             System.out.println(N+",seu peso ideal é :"+P);
          }
       
 }
