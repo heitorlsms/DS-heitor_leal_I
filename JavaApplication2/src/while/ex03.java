@@ -1,4 +1,4 @@
-package While;
+
 import java.util.Scanner;
 public class ex03 {
     public static void main(String[]args){
@@ -8,7 +8,14 @@ public class ex03 {
         int N=teclado.nextInt();
         
         while(I<=N){
-            System.out.println("Pares:"+I);
+            System.out.println("\nNúmeros Pares:\n"+I);
+            I=I+2;
+        }
+        
+        I=I-I;
+        I=I+1;
+        while (I<=N) {
+            System.out.println("\nNúmeros impares:\n"+I);
             I=I+2;
         }
     }
