@@ -1,6 +1,5 @@
-
 import java.util.Scanner;
-public class ex07 {
+public class ex08 {
     public static void main(String[] args) {
         int Li=0;
         int C=0;
@@ -8,13 +7,7 @@ public class ex07 {
         System.out.println("Lado do quadrado (entre 1 e 20):"); 
         int L=teclado.nextInt();
         while(Li<L){
-            while(C<L){
-                System.out.println("*");
-                C++;
-            }
             System.out.println();
-            Li++;
         }
-        
     }
 }
