@@ -1,4 +1,4 @@
-package laçosderepeticao;
+
 public class ex12 {
     public static void main(String[] args) {
         float A=80000;

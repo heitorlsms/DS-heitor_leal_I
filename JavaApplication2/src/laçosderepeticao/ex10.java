@@ -1,7 +1,7 @@
-package laçosderepeticao;
+
 import java.util.Scanner;
 public class ex10 {
-    public static void main(Strin[]args){
+    public static void main(String[]args){
         int I=1;
         int T=0;
         while(I>=10){
