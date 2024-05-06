@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ImprimirQuadrado {
+public class ex08 {
     public static void imprimirQuadrado(int lado) {
         // Loop para imprimir cada linha do quadrado
         for (int i = 0; i < lado; i++) {

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ImprimirQuadrado {
+public class ex07 {
     public static void imprimirQuadrado(int lado) {
         // Inicializa o contador
         int linha = 0;
