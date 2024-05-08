@@ -22,17 +22,17 @@ public class ex03 {
         
               
         }
-        vetor=numero[5]; 
+        vetor=numero[0]; 
         numero[0]=numero[5];
-        vetor=numero[0];
+        vetor=numero[5];
             
-        vetor=numero[4];
-        numero[1]=numero[4];
         vetor=numero[1];
+        numero[1]=numero[4];
+        vetor=numero[4];
         
-        vetor=numero[3];
-        numero[2]=numero[3];
         vetor=numero[2];
+        numero[2]=numero[3];
+        vetor=numero[3];
         
 
         i=0;
