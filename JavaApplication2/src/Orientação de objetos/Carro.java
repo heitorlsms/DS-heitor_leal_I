@@ -1,5 +1,5 @@
 package Orientacao_Objetos;
-//@author Carlos Santos
+
 
 public class Carro {
     //atributos
@@ -8,6 +8,34 @@ public class Carro {
     int ano;
     int vel;
     boolean sensor;
+    
+    public int getano(){
+        return ano;
+    }
+    public String getnome(){
+        return nome;
+    }
+    public String getmarca(){
+        return marca;
+    }
+    public int getvel(){
+        return vel;
+    }
+    public boolean getsensor(){
+        return sensor;
+    }
+    public void setano(){
+        this.ano= 2000;
+    }
+    public void setnome(){
+        this.nome = Tiida;
+    }
+    public void  setmarca(){
+        this.marca = Nissan;
+    }
+    public void setvel(){
+        this.vel = 100;
+    }                   
     
     //métodos
     void acelerar(int aceleracao) {
@@ -35,5 +63,5 @@ public class Carro {
             System.out.print("a velocidade do carro é "+vel);      
         }
 
-    }                                        
-}   
+    }
+}  

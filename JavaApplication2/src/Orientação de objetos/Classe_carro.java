@@ -1,5 +1,5 @@
 package Orientacao_Objetos;
-//@author Carlos Santos
+
 import java.util.Random;
 
 public class Classe_carro {
@@ -13,7 +13,7 @@ public class Classe_carro {
         car.sensor = false;
          
         Random random = new Random();
-        int numeroAleatorio = random.nextInt(100) + 1;
+        int numeroAleatorio = random.nextInt(100) ;
 
         // Verificando se o número gerado é par
         if (numeroAleatorio % 2 == 0) {
@@ -21,6 +21,6 @@ public class Classe_carro {
         } else {
             car.sensor = false;
         }
-        
+            
         }
     }
